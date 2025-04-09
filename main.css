@@ -1,0 +1,562 @@
+body {
+    font-family: 'Lora', serif; 
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    font-weight: 700;
+    color: #222;
+  }
+img{
+  width: 100%;
+  height: 100%;
+}
+  h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+    font-weight: 400;
+    color: #444;
+  }
+  a{
+    text-decoration: dashed;
+        text-decoration: none;
+  }
+  .big{
+    width: 100%;
+    height: 2500px;
+    background-color: white;
+    border: 0px solid green;
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: 0.5fr 0.5fr 0.3fr 1fr 10fr 0.7fr;
+  }
+  .bigbox1{
+    border: 0px solid black; 
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr;
+    background-color: #434242;
+  }
+
+
+  .box1{
+    border: 0px solid orangered; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dog1{
+    width: 60%;
+    height: 80%;
+    border: 0px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cat1{
+    width: 20%;
+    height: 30%;
+    border: 0px solid red;
+    position: relative;right: 47%;
+  }
+  .korzina{
+    width: 100%;
+    height: 100%;
+  }
+  .js1{
+    color: white;
+  }
+  .glav {
+    font-size: 1.5vw;
+    color: #EC8415;
+  }
+  .catalog {
+    font-size: 1.5vw;
+    color: white;
+  }
+
+  .comp {
+    font-size: 1.5vw;
+    color: white;
+  }
+
+  .delivery {
+    font-size: 1.5vw;
+    color: white;
+  }
+
+  .contact{
+    font-size: 1.5vw;
+    color: white;
+  }
+
+
+  
+
+
+
+
+
+  .bigbox2{
+    border: 0px solid black; 
+    display: grid;
+    grid-template-columns:1fr 1fr 3fr 1fr  ;
+    grid-template-rows:1fr;
+  }
+  .box2-1{
+    border: 0px solid orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .box2-2{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+  }
+  .box2-3{
+    border: 0px solid orangered;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .box2-4{
+    border: 0px solid orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+.out_foto{
+  width: 50%;
+  height: 50%;
+}
+.soul_foto{
+  width: 40%;
+  height: 30%;
+}
+.out_text{
+  font-size: 1vw;
+  letter-spacing: 5px;
+  color: #EC8415;
+}
+.black{
+  font-size: 1vw;
+  color: black;
+}
+.white{
+  font-size: 1vw;
+  color: black;
+  opacity: 0;
+}
+.vrema_text{
+  font-size: 1.5vw;
+  color: black;
+   letter-spacing: 5px;
+}
+.nomera_text{
+  font-size: 1.5vw;
+  color: #2B71CD;
+}
+.reg_text{
+  font-size: 1.5vw;
+  color: #2B71CD;
+}
+.vx_text{
+  font-size: 1.5vw;
+  color: #EC8415;
+}
+  
+  
+  
+
+
+
+
+
+  .bigbox3{
+    border: 0px solid black; 
+    display: grid;
+  grid-template-columns:1fr  1fr 1fr  ;
+  grid-template-rows:  1fr;
+  background-color: #434242;
+  }
+.box3{
+  border:0px solid orangered; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.poisk{
+  width: 5%;
+  height: 35%;
+}
+.pois{
+  width: 30%;
+  height: 30%;
+  border-radius:5px 5px 0px 0px ;
+  border: 1px solid #2B71CD;
+  font-size: 1vw;
+}
+
+
+
+
+
+  .bigbox5{
+    border: 0px solid black; 
+    text-align: center;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr  ;
+    grid-template-rows: 0.1fr 4fr 4fr 4fr 4fr  4fr 0.1fr ;
+    gap: 55px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+.pop_text{
+  font-size: 2vw;
+  color: #EC8415;
+}
+.box5{
+  border: 0px solid orangered;
+}
+.dog5-1{
+  width: 100%;
+  height: 75%;
+  border: 0px solid orange;
+  border-radius: 100px;
+}
+.dog5-2{
+  width: 100%;
+  height: 25%;
+  border: 0px solid orange;
+}
+.cat5-1{
+  width: 100%;
+  height: 50%;
+    border: 0px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFD58B;
+}
+.cat5-2{
+  width: 100%;
+  height: 50%;
+    border: 0px solid orange;
+    display: flex;
+    background-color: #EC8415;
+}
+.rat5{
+  width: 33%;
+  height: 100%;
+    border: 0px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.frukt_anim_foto{
+  width: 26px;
+  height: 26px;
+}
+.galochka_anim_foto{
+  width: 26px;
+  height: 26px;
+}
+.nazv_text{
+  font-size: 1.5vw;
+  letter-spacing: 2px;
+}
+.nal_text{
+  font-size: 0.6vw;
+}
+.zena_text{
+  font-size: 1.5vw;
+  color: #2B71CD;
+}
+.korzina_button{
+  width: 80%;
+  height: 50%;
+  background-color: #2B71CD;
+  color: #EC8415;
+  align-items: center;
+  border: 0;
+  font-size: 1vw;
+  border-radius: 10px;
+}
+
+
+
+
+
+  .bigbox6{
+    border: 0px solid black; 
+    display: grid;
+    grid-template-columns:1fr 1fr 3fr 1fr  ;
+    grid-template-rows:1fr;
+    background-color: #434242;
+  }
+  .box6{
+    border: 0px solid orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .seti_foto{
+    width: 80%;
+    height:80%;
+  }
+.tg_text{
+  font-size: 1.1vw;
+  color: white;
+}
+.wh_text{
+  font-size: 1.1vw;
+  color: white;
+}
+.politika_text{
+  font-size: 0.7vw;
+  color: white;
+}
+.polz_text{
+  font-size: 0.7vw;
+  color: white;
+}
+
+.dog6{
+  width: 100%;
+  height: 25%;
+  border: 0px solid orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* основа */
+  @media(max-width:600px){
+    .big{
+      width: 100%;
+      height: 1300px;
+      background-color: white;
+      border: 0px solid green;
+      display: grid;
+      grid-template-columns:1fr ;
+      grid-template-rows: 0.2fr 0.1fr 0.1fr 0.5fr 5fr 0.4fr;
+    }}
+
+
+/* bigbox1 */
+@media(max-width:600px){
+  .js1{
+font-size: 1vw;
+position: relative;left: 30%;
+  }}
+@media(max-width:600px){
+  .korzina{
+      width: 70%;
+      height: 100%;
+     }}
+  @media(max-width:600px){
+    .glav{
+     font-size: 2vw;
+    }}
+    @media(max-width:600px){
+      .comp{
+       font-size: 2vw;
+      }}
+      @media(max-width:600px){
+        .catalog{
+         font-size: 2vw;
+        }}
+        @media(max-width:600px){
+          .delivery{
+           font-size: 1.5vw;
+          }}
+          @media(max-width:600px){
+            .contact{
+             font-size: 2vw;
+            }}
+            /* bigbox2 */
+              
+   
+            @media(max-width:600px){
+              .out_text{
+               font-size: 2vw;
+              }}
+              @media(max-width:600px){
+                .soul_foto{
+                  width: 50%;
+                  height: 50%;
+                }}
+              @media(max-width:600px){
+                .vrema_text{
+                 font-size: 2vw;
+                }}
+                @media(max-width:600px){
+                  .black{
+                   font-size: 1.5vw;
+                  }}
+                @media(max-width:600px){
+                  .nomera_text{
+                   font-size: 2vw;
+                  }}
+                  @media(max-width:600px){
+                    .reg_text{
+                     font-size: 2vw;
+                    }}
+                    @media(max-width:600px){
+                      .vx_text{
+                       font-size: 2vw;
+                      }}
+
+
+                        /* bigbox3 */
+                        @media(max-width:600px){
+                          .t3{
+                           font-size: 1.7vw;
+                          }}
+                          @media(max-width:600px){
+                            .pois{
+                             font-size: 1vw;
+                             width: 50%;
+                             height: 50%;
+                            }}
+                            @media(max-width:600px){
+                              .poisk{
+                               width: 10%;
+                               height: 50%;
+                              }}
+
+
+                              
+   /* .bigbox5 */
+   @media(max-width:600px){
+    .frukt_anim_foto{
+        width: 15px;
+        height: 15px;
+       }}
+       @media(max-width:600px){
+        .galochka_anim_foto{
+            width: 15px;
+            height: 15px;
+           }}
+           @media(max-width:600px){
+            .nal_text{
+             font-size: 0.7vw;
+            }}
+            @media(max-width:600px){
+              .zena_text{
+               font-size: 1.5vw;
+              }}
+              @media(max-width:600px){
+                .pop_text{
+                 font-size: 2.5vw;
+                }}
+            @media(max-width:600px){
+              .nazv_text{
+               font-size: 1vw;
+              }}
+                 @media(max-width:600px){
+                .korzina_button{
+                  width: 50%;
+                  height: 50%;
+                  background-color: #2B71CD;
+                  color: #EC8415;
+                  align-items: center;
+                  border: 0;
+                  font-size: 0.7vw;
+                  border-radius: 5px;
+                }}
+    
+  
+
+      
+          
+              /* bigbox6 */
+              @media(max-width:600px){
+                .seti_foto{
+                    width: 50%;
+                    height: 50%;
+                   }}
+                   @media(max-width:600px){
+                    .politika_text{
+                     font-size: 1vw;
+                    }}
+                    @media(max-width:600px){
+                      .polz_text{
+                       font-size: 1vw;
+                      }}
+    
+  
+
+
+
+
+
+
+
+
+            /* ------------------------------ */
+            .bigbox4 {
+              max-width: 1000px;
+              margin: auto;
+            position: relative;top: 5%;}           
+                  .numbertext {
+                      color: #f2f2f2;
+                      font-size: 12px;
+                      padding: 8px 12px;
+                      position: absolute;
+                      top: 0;
+                    }
+                  .prev, .next {
+                      cursor: pointer;
+                      position: absolute;
+                      top: 50%;
+                      width: auto;
+                      padding: 16px;
+                      margin-top: -22px;
+                      color: white;
+                      font-weight: bold;
+                      font-size: 18px;
+                      transition: 0.6s ease;
+                      border-radius: 0 3px 3px 0;
+                      user-select: none;
+                    }
+                  .next {
+                      right: 0;
+                      border-radius: 3px 0 0 3px;
+                    }
+                  .prev:hover, .next:hover {
+                      background-color: rgba(0,0,0,0.8);
+                    }
+                    .fade {
+                      animation-name: fade;
+                      animation-duration: 1.5s; 
+                    }
+                    
+                    @keyframes fade {
+                      from {opacity: .4} 
+                      to {opacity: 1}
+                    }
